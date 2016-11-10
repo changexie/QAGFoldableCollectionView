@@ -18,6 +18,11 @@
 @property (nonatomic, copy) NSString *name;
 
 /**
+ 是否允许折叠
+ */
+@property (nonatomic, assign, getter=isFoldable) BOOL foldable;
+
+/**
  是否开启
  */
 @property (nonatomic, assign, getter=isOpen) BOOL open;

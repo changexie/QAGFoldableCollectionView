@@ -32,6 +32,10 @@
     
     _nameLabel.text = groupModel.name;
     
+    if (!groupModel.isFoldable) {
+        _arrowImageView.hidden = YES;
+    }
+    
     _arrowImageView.transform = _originalTransform;
     if (groupModel.isOpen) {
         // 顺时针旋转90° (打开)
@@ -40,6 +44,10 @@
 }
 
 - (IBAction)didHeaderViewTouchUpInside:(id)sender {
+    if (!_groupModel.isFoldable) {
+        return;
+    }
+    
     if (_groupModel.isOpen) {
         // 逆时针旋转90° (关闭)
         _arrowImageView.transform = CGAffineTransformRotate(_arrowImageView.transform, -M_PI_2);

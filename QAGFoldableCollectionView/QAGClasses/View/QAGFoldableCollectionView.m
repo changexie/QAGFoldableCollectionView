@@ -121,7 +121,7 @@ static const CGFloat kSectionHeaderViewH = 50.0f;
 }
 
 - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section {
-    UIEdgeInsets inset = UIEdgeInsetsMake(kItemsSpace / 2, kItemsSpace, kItemsSpace / 2, kItemsSpace);
+    UIEdgeInsets inset = UIEdgeInsetsMake(kItemsSpace, kItemsSpace, kItemsSpace, kItemsSpace);
     return inset;
 }
 

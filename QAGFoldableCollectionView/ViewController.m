@@ -32,6 +32,7 @@
                 model.name = dict[@"name"];
                 // 这里需要用 boolValue转一下, 如果直接 model.open = dict[@"open"] 会得到 YES
                 model.open = [dict[@"open"] boolValue];
+                model.foldable = [dict[@"foldable"] boolValue];
                 NSArray *childArray = dict[@"childs"];
                 for (NSDictionary *childDict in childArray) {
                     QAGChildModel *childModel = [QAGChildModel new];
@@ -51,6 +52,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.title = @"分组编辑";
     
     QAGFoldableCollectionView *collectionView = [QAGFoldableCollectionView collectionView];
     collectionView.frame = CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height);

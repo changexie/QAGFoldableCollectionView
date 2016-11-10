@@ -7,6 +7,8 @@
 		<string>分组01</string>
 		<key>open</key>
 		<true/>
+		<key>foldable</key>
+		<false/>
 		<key>childs</key>
 		<array>
 			<dict>
@@ -28,6 +30,8 @@
 		<string>分组02</string>
 		<key>open</key>
 		<false/>
+		<key>foldable</key>
+		<true/>
 		<key>childs</key>
 		<array>
 			<dict>
@@ -45,6 +49,8 @@
 		<string>分组03</string>
 		<key>open</key>
 		<false/>
+		<key>foldable</key>
+		<true/>
 		<key>childs</key>
 		<array>
 			<dict>

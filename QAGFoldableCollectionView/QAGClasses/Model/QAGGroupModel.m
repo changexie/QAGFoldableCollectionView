@@ -17,6 +17,10 @@
     return _childModels;
 }
 
+- (BOOL)isFoldable {
+    return _foldable;
+}
+
 - (BOOL)isOpen {
     return _open;
 }
