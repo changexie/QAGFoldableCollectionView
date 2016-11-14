@@ -10,4 +10,4 @@
 <br />
 <br />
 
-![readme1](https://github.com/changexie/QAGFoldableCollectionView/blob/master/QAGFoldableCollectionView.gif?raw=true =375x667)
+![readme1](https://github.com/changexie/QAGFoldableCollectionView/blob/master/QAGFoldableCollectionView.gif?raw=true =187x333)
