@@ -7,4 +7,4 @@
 
 * 点击其他分组中的成员，会移动到第一组，这些成员在第一组中可以点击，点击过后回到原来的分组中
 <br /><br /><br />
-![readme1](/Users/bltech/Desktop/QAGFoldableCollectionView/QAGFoldableCollectionView.gif)
+![readmeGIF001](https://github.com/changexie/QAGFoldableCollectionView/blob/master/QAGFoldableCollectionView.gif?raw=true)
